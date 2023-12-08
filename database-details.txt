@@ -1,0 +1,7 @@
+HOUSEHOLD SUSTAINABILITY DASHBOARD
+DATABASE DETAILS
+MySQL Statements
+
+CREATE DATABASE Electricity_Db
+USE Electricity_Db
+CREATE TABLE Electricity_Tbl (ElectricityID INT AUTO_INCREMENT PRIMARY KEY, ElectricityDate VARCHAR(100), EnergyConsumption DOUBLE, Costpk DOUBLE, TotalBill DOUBLE)
